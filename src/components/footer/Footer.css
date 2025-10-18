@@ -1,0 +1,35 @@
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    margin: 50px 0 0 0;
+    box-shadow: rgb(93, 88, 88) 0 0 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer h1{
+    text-align: center;
+    margin: 0  0 20px 0;
+    color: #3aafa9;
+
+
+}
+.content h2{
+    color: #636262;
+    font-size: 15px;
+    max-width: 500px;
+    text-align: center;
+    margin:0 0  50px;
+}
+.content hr{
+    border: none;
+    height: 1px ;
+    background-color: #3aafa9;
+}
+.footer p{
+    font-size: 15px;
+    color: #636262;
+}

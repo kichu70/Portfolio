@@ -16,17 +16,24 @@ const Navbar = () => {
       document.removeEventListener("mousedown",handleclickOutside)
     }
   },[])
+
+const handleClick= (sectionId)=>{
+  const section = document.getElementById(sectionId)
+  if(section){
+    section.scrollIntoView({behavior:'smooth'})
+  }
+}
+
   return (
     <div className='navbar'>
       <div className="nav">
         <button id="logo">ANSIF</button>
         <button id='logo2'>A<span>nsif</span></button>
         <div className="menu">
-            <button>Home</button>
-            <button>AboutMe</button>
-            <button>certificates</button>
-            <button>Internships</button>
-            <button>Qualification</button>
+            <button onClick={()=>handleClick("home")}>AboutMe</button>
+            <button onClick={()=>handleClick("crt")}>certificates</button>
+            <button onClick={()=>handleClick("experiance")}>Experiance</button>
+            <button onClick={()=>handleClick("education")}>Qualification</button>
         </div>
         <div className="mblCntere">
          <h6>Muhammed &nbsp;Ansif</h6>
@@ -34,11 +41,10 @@ const Navbar = () => {
         <button id='mblMenuBtn' onClick={() => setMenuOpen(!menuOpen)}>☰</button>
         {menuOpen&&(
         <div ref={menuRef} className="mblMenu" id='mblMenu'>
-            <button>Home</button>
-            <button>AboutMe</button>
-            <button>certificates</button>
-            <button>Internships</button>
-            <button>Qualification</button>
+            <button onClick={()=>handleClick("home")}>AboutMe</button>
+            <button onClick={()=>handleClick("crt")}>certificates</button>
+            <button onClick={()=>handleClick("experiance")}>Experiance</button>
+            <button onClick={()=>handleClick("education")}>Qualification</button>
 
         </div>
         )}

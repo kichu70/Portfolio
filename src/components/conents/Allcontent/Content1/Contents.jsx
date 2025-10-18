@@ -12,7 +12,7 @@ import ict from "../images/ict.jpeg";
 const Contents = () => {
   return (
     <div className="main">
-      <div className="header">
+      <div className="header" id="home">
         <div className="section1">
           <h1>
             I am Muhammed<span> Ansif</span> ,
@@ -32,7 +32,7 @@ const Contents = () => {
           <img src={headerImg} alt="" />
         </div>
       </div>
-      <div className="content1">
+      <div className="content1" id="education">
         <h1>Education</h1>
         <ul>
           <li>KMO Arts and Science College — BCA Student (2022-2025)</li>
@@ -42,7 +42,7 @@ const Contents = () => {
           </li>
         </ul>
       </div>
-      <div className="content2">
+      <div className="content2" id="crt">
         <h1>Internship & Certifications</h1>
         <ul id="internsips">
           <li>
@@ -77,7 +77,7 @@ const Contents = () => {
               </h1>
             </div>
           </div>
-          <div className="cnt3Pera">
+          <div className="cnt3Pera" id="experiance">
             <h1>Experience / Freelance Work</h1>
             <ul>
               <li>

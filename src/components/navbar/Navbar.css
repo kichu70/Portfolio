@@ -28,6 +28,7 @@
 .menu{
     gap: 50px;
     display: flex;
+    margin: 0 50px 0 0;
 }
 #logo{
     font-size: 80px;
@@ -117,4 +118,17 @@
     font-size: 30px;
  }
 
+}
+
+/* ---------------hover------------- */
+.menu button:hover{
+          background: linear-gradient(rgb(11, 228, 224), rgb(0, 0, 0)) border-box;
+            -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  border-bottom: 1px solid aqua;
+  padding:  0 0 15px;
+  
+  
 }

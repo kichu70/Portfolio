@@ -15,20 +15,25 @@
   }
   .cntimg {
     position: relative;
+    
   }
+  .cntimg img{
+    filter:  blur(2px);
+  }
+
   .cntInImg {
     display: block;
     position: absolute;
     width: 70%;
     top: 5vw;
     right: 0;
-    background: linear-gradient(to left, rgb(249, 255, 148), rgb(251, 251, 251))
+    background: linear-gradient(to right, rgb(16, 130, 128), rgb(229, 229, 229))
       border-box;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-     /* -webkit-text-stroke: 0.5px black; */
-    text-shadow:  rgba(255, 255, 170, 0.53) 0 0 50px;
+     /* -webkit-text-stroke: 0.5px rgb(26, 44, 49); */
+    text-shadow:  rgba(0, 0, 0, 0.915) 0 0 50px;
   }
   .cntInImg h1 {
     font-size: 5vw;

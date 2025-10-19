@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="content">
           <h1>ABOUT ME</h1>
           <h2>
-            A passionate MERN Stack Developer and Cybersecurity Analyst from ICT
+            A passionate MERN Stack Developer and Cybersecurity Analyst from RedTeam
             Academy Kerala. Currently interning at Limenzy Technologies,
             focusing on full-stack web development and red team security
             analysis.
